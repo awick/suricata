@@ -162,7 +162,7 @@ static int SSHParseRecordHeader(SshState *state, SshHeader *header,
     header->padding_len = *input;
 
     input += 1;
-    input_len -= 1;
+    //input_len -= 1;
 
     SCLogDebug("padding: %u", header->padding_len);
 
